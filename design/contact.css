@@ -1,0 +1,144 @@
+body{
+    background-image: url(../images/436135.jpg);
+    background-size: cover;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0rem 0%;
+    display: flex;
+    z-index: 100;   
+    align-items: baseline;
+    justify-content: center;
+    background: rgba (0,0,0,.1);
+    backdrop-filter: blur(3px);
+}
+.header h1{
+    font-family: GreatVibes, 'Times New Roman', Times, serif;
+    color: goldenrod;
+    text-shadow: 3px 3px 4px rgba(0, 0, 0);
+}
+.nav ul{
+   list-style-type: none;
+   display: inline-block;
+}
+.nav ul li{
+    display: inline-block;
+}
+.nav ul a {
+    text-shadow: 3px 3px 4px rgba(0, 0, 0);
+    text-decoration: none;
+    margin-right: 25px;
+    padding: 1 rem 2.0%;
+    font-size: 30px;
+    color: whitesmoke;
+}
+.nav a:hover {
+    color: #5DE2E7;
+    border-bottom: 5px solid #5DE2E7;
+    padding-bottom: .5rem;
+    transition: 0.2s ease-in-out;
+    
+}
+.content  {
+    border-radius: 10px;
+    background: rgba (0,0,0,.1);
+    backdrop-filter: blur(5px);
+    box-shadow: 0px 0px 20px black;
+    width: 80%;
+    margin: 160px;
+    color: white;
+    font-size: 20px;
+    text-shadow: 0px 0px 10px black;
+    margin-bottom: 30px;
+    margin-top: 30px;   
+}
+.content h2{
+    margin: 60px;
+    padding: 0px;
+    font-size: 30px;
+    color: orange;
+    font-weight: bold;
+    
+
+    
+}
+.content p {
+    text-indent: 50px;
+    margin: 50px;
+    padding: 5px;
+    font-size: 30px;
+    color: orange;
+    font-weight: bold;
+}
+form {
+	
+	border-radius: 10px;
+	border: 1px solid black;
+	background: rgba (0,0,0,.1);
+    backdrop-filter: blur(3px);
+	padding: 20px;
+	margin: 0 auto;
+	width: 50%;
+	box-shadow: 3px 3px 10px black;
+}
+form input, form select{
+	border-radius: 10px;
+	margin-top: 5px;
+	padding: 10px;
+	font-family: Arial;
+	width: 100%;
+	box-shadow: 3px 3px 10px black;
+
+}
+form select option{
+	font-size: 25px;
+}
+form input#txtRadio{
+	box-shadow: none;
+	width: 50px;
+	padding: 0px;
+	text-shadow: 3px 3px 4px black;
+}
+
+form button{
+	justify-content: space-between;
+	padding: 20px ;
+	border-radius: 8px;
+	padding: 10px;
+	background-color: white;
+	color: black;
+	font-weight: bold;
+	font-size: 20px;
+	cursor: pointer;
+	
+}
+form button:hover{
+    background-color: orange;
+    color: black;
+    transition: 0.4s ease-in-out;
+}
+form label{
+	font-size: 25px;
+	font-weight: bold;
+	color: orange;
+	text-shadow: 3px 3px 4px black;
+
+}
+.footer{
+    background: rgba (0,0,0,.1);
+    backdrop-filter: blur(3px);
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+	padding-top: 20px;
+    margin: 0;
+	text-align: center;
+    
+}
+.footer p {
+    font-size: 15px;
+    color: white;
+    text-shadow: 3px 3px 4px black;
+}
